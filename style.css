@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "Montserrat-Semibold";
+    src: url(font/Montserrat-SemiBold.ttf);
+}
+@font-face{
+    font-family: "Montserrat-Semibold";
+    src: url(font/Montserrat-Medium.ttf);
+}
+
+@font-face{
+    font-family: "Montserrat-Semibold";
+    src: url(font/Montserrat-ExtraBold.ttf);
+}
+
+
+
+/*side bar */
+.sidebar{
+    position: relative;
+    background: #865cff;
+    color: white;
+    height: 100vh;
+    width: 175px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: "Montserrat-Semibold";
+}
+.menu{
+    margin: 10px 0px 0px 25px;
+    width: 100px;
+    height: 30px;
+    padding: 10px 0px 0px 50px;
+    background-color: #865cff;
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+}
+.dashboard{
+    margin-top: 150px;
+
+}
+
+/* Dasboard */
+.main-dashboard{
+    position: relative;
+    margin: -695px 0px 0px 200px;
+    width: 85vw;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+}
+.user-title{
+    position: absolute;
+    font-family: "Montserrat-Medium";
+    color: #707070;
+    margin: 40px 0px 0px 20px;
+}
+.user-title p{
+    font-size: 35px;
+}
+.month-dashboard{
+    position: absolute;
+    font-family: "Montserrat-Medium";
+    color: #707070;
+    margin: 80px 0px 0px 20px;
+}
+.month-dashboard{
+    font-size: 20px;
+}
+
+.segitiga{
+    position: absolute;
+    margin: -18px 0px 0px 85px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 15px solid #555;
+}
+.dropdown-months{
+    position: absolute;
+    display: none;
+    margin: 100px 0px 0px 80px;
+    font-family: "Montserrat-Medium";
+    width: fit-content;
+    height: fit-content;
+}
+
+.dropdown-months ul li{
+    text-align: center;
+    margin: 10px;
+
+}
+
+.dropdown-months ul li a{
+    text-decoration: none;
+    color: #707070;
+}
+
+.dropdown-months ul li a:hover{
+    color: #865cff;
+}
+
+.dropdown-months li::marker{
+    color: white;
+}
+
+.month-dashboard:hover +.dropdown-months{
+    display: block;
+}
+
+.dropdown-months:hover{
+    display: block;
+}
+/*BOX */
+.white-small-box{
+    position: absolute;
+    background: white;
+    padding:  20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(79,77, 77);
+    font-family: "Montserrat-Medium";
+    color: #707070;
+}
+.white-small-box{
+    margin-bottom: 5px;
+}
+.total-balance{
+    margin: 150px 0px 0px 20px;
+}
+.total-balance p,h2{
+    text-align: center;
+}
+.target-saving{
+    margin: 270px 0px 0px 20px;
+}
+.target-saving p,h2{
+    text-align: center;
+}
+
+.circle-litle{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: #4ef275;
+    margin-top: -10px;
+    opacity: 60%;
+}
+.white-large-box{
+    position: absolute;
+    background: white;
+    padding:  20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(79,77, 77);
+    font-family: "Montserrat-Medium";
+    color: #707070;
+}
+.incomes-progres{
+    margin: 150px 0px 0px 300px;
+}
+.spendings-progres{
+    margin: 150px 0px 0px 700px;
+}
+.circle-3{
+    background: white;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px 0x 0x 0px;
+}
+.round{
+    margin: 10px;
+}
+.round strong{
+    position: absolute;
+    margin: 30px 0px 0px -60px;
+    font-size: 20px;
+}
+.round span{
+    position: absolute;
+    margin-left: 10px;
+    margin: 90px 0px 0px -60px;
+    text-align: center;
+}
+#round-2{
+    margin-left: -75px !important;
+}
