@@ -1,0 +1,19 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "learn node js",
+  "main": "index.js",
+  "scripts": {
+    "nyala": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "ibnuzaman",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "rupiah-format": "^1.0.0"
+  }
+}
