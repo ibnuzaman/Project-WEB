@@ -1,4 +1,6 @@
 # Project-WEB
 
 Refrensi 
-https://www.youtube.com/c/DeaAfrizal
+
+link yt : https://www.youtube.com/c/DeaAfrizal
+link Github : https://github.com/deaaprizal
